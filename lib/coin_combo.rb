@@ -13,15 +13,15 @@ class Float
     amount = "Your change is: "
 
     until change == 0
-      if change >= 25 && num_q > 0
+      if change >= 25 && num_q >= 1
         change -= 25
         q += 1
         num_q -= 1
-      elsif change >= 10 && num_d > 0
+      elsif change >= 10 && num_d >= 1
         change -= 10
         d += 1
         num_d -= 1
-      elsif change >= 5 && num_n > 0
+      elsif change >= 5 && num_n >= 1
         change -= 5
         n += 1
         num_n -= 1
