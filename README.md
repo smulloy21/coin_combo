@@ -10,6 +10,8 @@ _On the form, input the amount of needed change, as a decimal. The app will calc
 
 Note: the till is set as having 5 quarters, 10 dimes, 20 nickels, and unlimited pennies. This can be changed in the coin_combo.rb file by changing the variables: num_q, num_d and num_n (and potentially setting a limit to pennies)._
 
+link on heroku: https://coin-combo.herokuapp.com/
+
 ## Setup
 
 * _Download from GitHub and run_
