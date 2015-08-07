@@ -1,6 +1,4 @@
-require('pry')
 class Float
-
   define_method(:coin_combo) do
     q = 0
     d = 0
@@ -11,7 +9,6 @@ class Float
     num_n = 20
     change = self * 100
     amount = "Your change is: "
-
     until change == 0
       if change >= 25 && num_q >= 1
         change -= 25
@@ -30,7 +27,6 @@ class Float
         c += 1
       end
     end
-
     if q > 0
       if q > 1
         q = q.to_s()
@@ -76,7 +72,6 @@ class Float
         amount += c + " penny"
       end
     end
-
     amount
   end
 end

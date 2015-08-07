@@ -5,12 +5,13 @@ describe('Float#coin_combo') do
   it("returns the refund in the smallest amount of coins") do
     expect(0.36.coin_combo()).to(eq("Your change is: 1 quarter, 1 dime, 1 penny"))
   end
-
   it("returns the refund in the smallest amount of coins") do
     expect(0.75.coin_combo()).to(eq("Your change is: 3 quarters"))
   end
-
   it("returns the refund in the smallest amount of coins") do
     expect(1.26.coin_combo()).to(eq("Your change is: 5 quarters, 1 penny"))
+  end
+  it("returns the refund in the smallest amount of coins") do
+    expect(2.45.coin_combo()).to(eq("Your change is: 5 quarters, 10 dimes, 4 nickels"))
   end
 end
