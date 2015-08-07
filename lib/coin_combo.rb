@@ -6,7 +6,7 @@ class Float
     d = 0
     n = 0
     c = 0
-    num_q = 3
+    num_q = 5
     num_d = 10
     num_n = 20
     change = self * 100
